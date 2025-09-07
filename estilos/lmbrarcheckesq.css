@@ -1,0 +1,45 @@
+.lembrar-esqueci {
+    display: flex; /* Coloca os elementos lado a lado */
+    margin-top: 3vh; /* Espaçamento inferior */
+}
+
+
+.lembrar {
+    display: flex; /* Coloca os elementos lado a lado */
+    font-size: 1.7vh; /* Tamanho da fonte */
+    color: var(--branco); /* Cor do texto */
+    margin-bottom: 1vh; /* Espaçamento inferior */
+    margin-right: 2vh; /* Espaçamento à direita */
+    font-family: 'Quicksand';
+}
+
+.lembrar .check {
+    margin-right: 1vh; /* Espaço entre o checkbox e o texto */
+    color: var(--branco); /* Cor do texto */
+    cursor: pointer; /* Adiciona o cursor de "mão" ao passar o mouse */
+    font-family: 'Quicksand';
+
+
+}
+
+.check {
+    margin-bottom: 0.5vh;
+    margin-left: 2vh; /* Espaço à esquerda */
+}
+
+
+/* Estilo para "Esqueci a Senha" */
+.esqueci-senha {
+    display: flex; /* Coloca os elementos lado a lado */
+    font-size: 1.7vh; /* Tamanho da fonte */
+    color: var(--branco); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    margin-left: 2vh; /* Espaço entre os dois elementos */
+    font-family: 'Quicksand';
+
+}
+
+.esqueci-senha:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: var(--branco); /* Cor ao passar o mouse (se definida) */
+}

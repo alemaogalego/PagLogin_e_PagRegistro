@@ -1,0 +1,30 @@
+body {
+    display: flex; /* Define o container como um flexbox, permitindo o alinhamento flexível dos elementos filhos. */
+    justify-content: center; /* Alinha todo mundo no centro na horizontal*/
+    align-items: center; /* Alinha todo mundo no centro na vertical */
+    min-height: 100vh; /* Define a altura mínima do container como 100% da altura do monitor (viewport). */
+    
+}
+
+.container {
+    width: 35vh;
+    background-color: transparent;
+    border: 0.2vh solid var(--branco);
+    border-radius: 1vh;
+    padding: 21vh 1vh 5vh;
+    box-shadow: 0 0 3vh rgba(3, 3, 3, 0.966);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Suporte para navegadores baseados em WebKit */
+}
+
+/* Pagina Registro */
+.container_register {
+    width: 48vh;
+    background-color: transparent;
+    border: 0.2vh solid var(--branco);
+    border-radius: 1vh;
+    padding: 70vh 1vh 0vh;
+    box-shadow: 0 0 3vh rgba(3, 3, 3, 0.966);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}

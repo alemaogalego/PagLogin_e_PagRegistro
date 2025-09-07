@@ -1,0 +1,44 @@
+.botao {    
+    background-color: transparent;    /* background transparente */
+    color: white;       /* Cor do texto */
+    border: 0.2vh solid white;  /* Borda 2px com cor branca */
+    width: 20vh; /* Largura do botão */
+    height: 6vh; /* Altura do botão */
+    font-size: 2.5vh; /* Aumenta o tamanho do texto */
+    margin: 2vh auto; /* Centraliza o botão horizontalmente */
+    display: block; /* Garante que o botão seja tratado como um bloco para centralização */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    cursor: pointer; /* Adiciona o cursor de "mão" ao passar o mouse */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para hover */
+    font-family: 'Quicksand';
+}
+
+
+.botao:hover {
+    background-color: white; /* Fundo branco ao passar o mouse */
+    color: black; /* Texto preto ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o botão levemente ao passar o mouse */
+    font-family: 'Quicksand';
+}
+
+.botao_cadastro{
+    background-color: transparent;    /* background transparente */
+    color: white;       /* Cor do texto */
+    border: 0.2vh solid white;  /* Borda 2px com cor branca */
+    width: 20vh; /* Largura do botão */
+    height: 6vh; /* Altura do botão */
+    font-size: 2.5vh; /* Aumenta o tamanho do texto */
+    margin: 2vh auto; /* Centraliza o botão horizontalmente */
+    margin-top: 6vh;
+    display: block; /* Garante que o botão seja tratado como um bloco para centralização */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    cursor: pointer; /* Adiciona o cursor de "mão" ao passar o mouse */
+    transition: all 0.3s ease; /* Adiciona uma transição suave para hover */
+    font-family: 'Quicksand';
+}
+.botao_cadastro:hover {
+    background-color: white; /* Fundo branco ao passar o mouse */
+    color: black; /* Texto preto ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o botão levemente ao passar o mouse */
+    font-family: 'Quicksand';
+}

@@ -1,0 +1,310 @@
+.input-box-usu {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 1vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5vh ;  /* Move o campo um pouco para a direita */
+}
+
+.input-box-usu input {
+    width: 20vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 1vh 1vh 1vh 4.5vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+}
+
+.input-box-usu input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-box-usu input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+.input-box-usu input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}
+
+/* Agora para password */
+
+.input-box-pass {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 1vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5vh ;   /* Move o campo um pouco para a direita */
+}
+
+.input-box-pass input {
+    width: 20vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 1vh 1vh 1vh 4.5vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+}
+
+.input-box-pass input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-box-pass input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+.input-box-pass input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}
+
+
+/* Pagina Cadastro  ------------------------------------------------------------------------------------------------------*/
+
+
+.input-register-usu {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 2vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5.5vh;  /* Move o campo um pouco para a direita */
+    margin-top: -55vh;
+}
+
+.input-register-usu input {
+    width: 35.5vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 2vh 1vh 1vh 4vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+}
+
+.input-register-usu input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-register-usu input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+.input-register-usu input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}
+
+
+/* Agora para email */
+.input-register-email {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 2vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5.5vh   /* Move o campo um pouco para a direita */
+}
+
+.input-register-email input {
+    width: 35.5vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 2vh 1vh 1vh 4vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+    
+}
+
+.input-register-email input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-register-email input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+
+.input-register-email input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}
+
+/* Agora para rooom */
+
+.input-register-row {
+    display: flex; /* Coloca os elementos lado a lado */
+    gap: 7vh; /* Espaçamento entre os campos */
+    align-items: center; /* Alinha os elementos verticalmente */
+    margin-bottom: 1vh; /* Espaçamento inferior entre as linhas */
+}
+
+.input-register-phone,
+.input-register-country {
+    flex: 1; /* Faz os campos ocuparem o mesmo espaço */
+    position: relative; /* Define o contexto de posicionamento para os ícones */
+}
+
+.input-register-country {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 2vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5.5vh;  /* Move o campo um pouco para a direita */
+    margin-top: 2.0vh;
+}
+
+.input-register-country select {
+    width: 20.5vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 2vh 1vh 1vh 4vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco);  /* Remove o estilo padrão no Firefox */
+    appearance: none;
+    font-family: 'Quicksand'
+}
+
+.input-register-country select:focus {
+    outline: none; /* Remove o contorno padrão ao focar */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+    appearance: none; /* Remove o estilo padrão do navegador */
+    
+
+}
+
+.input-register-country select option {
+    appearance: none; /* Remove o estilo padrão do navegador */
+    background-color: rgb(9, 111, 151);
+    font-family: 'Quicksand'
+}
+
+.input-register-country::after {
+    content: '▼'; /* Adiciona a seta */
+    font-size: 1.5vh; /* Tamanho da seta */
+    color: var(--branco); /* Cor da seta */
+    position: absolute; /* Posiciona a seta */
+    top: 2.8vh; /* Centraliza verticalmente */
+    left: 19vh; /* Posiciona à direita */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+    pointer-events: none; /* Garante que a seta não interfira na interação com o select */
+    font-family: 'Quicksand'
+}
+
+
+.input-register-phone {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 2vh; /* Espaçamento entre os campos chat  */
+    margin-left: -5.5vh;  /* Move o campo um pouco para a direita */
+    margin-top: 2.0vh;
+}
+
+.input-register-phone input {
+    width: 13.5vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 2vh 1vh 1vh 4vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+}
+
+.input-register-phone input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-register-phone input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+.input-register-phone input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}
+
+
+/* Agora para password */
+
+.input-register-pass {
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 2vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5.5vh   /* Move o campo um pouco para a direita */
+}
+
+.input-register-pass input {
+    width: 35.5vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 2vh 1vh 1vh 4vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+    
+}
+
+.input-register-pass input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-register-pass input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+.input-register-pass input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}
+
+/* Agora para confirmar password */
+.input-register-confpass{
+    position: relative; /* Define o contexto de posicionamento para o ícone */
+    margin-bottom: 2vh; /* Espaçamento entre os campos chat  */
+    margin-left: 5.5vh   /* Move o campo um pouco para a direita */
+}
+
+.input-register-confpass input {
+    width: 35.5vh; /* Faz o campo ocupar toda a largura disponível */
+    padding: 2vh 1vh 1vh 4vh; /* Adiciona espaço à esquerda para o ícone */
+    font-size: 1.7vh; /* Define o tamanho da fonte */
+    border: 0vh ; /* Define a borda do campo */
+    border-radius: 0vh; /* Bordas arredondadas */
+    background-color: transparent;
+    color: var(--branco); /* Define a cor do texto */
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível */
+    font-family: 'Quicksand';
+    
+}
+
+.input-register-confpass input::placeholder {
+    color: var(--branco); /* Define a cor do placeholder */
+    opacity: 0.8; /* Torna o placeholder um pouco mais claro */
+    
+}
+
+.input-register-confpass input:focus {
+    outline: none; /* Remove o contorno padrão ao focar no campo */
+    border-bottom: 0.1vh solid var(--branco); /* Mantém a linha inferior ao focar */
+}
+
+.input-register-confpass input:not(:placeholder-shown) {
+    border-bottom: 0.1vh solid var(--branco); /* Garante que a linha permaneça visível mesmo após o preenchimento */
+}

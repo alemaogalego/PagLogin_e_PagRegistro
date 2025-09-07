@@ -1,0 +1,11 @@
+.background_screen {
+    position: fixed; /* Fixa o background na tela */
+    top: 0; /* Alinha no topo */
+    left: 0; /* Alinha na esquerda */
+    width: 100%; /* Ocupa toda a largura */
+    height: 100%; /* Ocupa toda a altura */
+    background-image: url('../img/blue2.jpg'); /* Caminho relativo para a imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    z-index: -1; /* Garante que fique atrás de outros elementos */
+}

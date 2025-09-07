@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se iFinance</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/estilos/tipografia.css">
+    
+</head>
+<body>
+    <main>
+        <div class="background_screen"></div>
+        <div class="container_register">
+            <div class="register">
+                <h1>Cadastre-se</h1>
+            </div>
+            <form>
+                <div class="input-register-usu">
+                    <input placeholder="Usuário ID" type="text" pattern="[a-zA-Z0-9]+" title="O nome de usuário deve conter apenas letras e números." required>
+                    <i class="icon_register_uso">
+                        <img src="/img/user_new.png" alt="usuário">
+                    </i>
+                </div>
+                <div class="input-register-email">
+                    <input placeholder="Email" type="email" title="Por favor, insira um email válido (exemplo@dominio.com)" required>
+                    <i class="icon_register_email">
+                        <img src="/img/email.png" alt="Ícone de Email">
+                    </i>
+                </div>
+                <div class="input-register-row">
+                    <div class="input-register-country">
+                        <i class="icon_register_country">
+                            <img src="/img/pais.png" alt="Ícone de País">
+                        </i>
+                    <select id="country" name="country" title="Por favor, selecione seu pais" required>
+                        <option value="" disabled selected>Selecione seu país</option>
+                        <option value="BR">(+55) Brasil</option>
+                        <option value="US">(+1) Estados Unidos</option>
+                        <option value="UK">(+44) Reino Unido</option>
+                        <option value="DE">(+49) Alemanha</option>
+                        <option value="JP">(+81) Japão</option>
+                        <option value="AU">(+61) Austrália</option>
+                    </select>
+                    </div>
+                    <div class="input-register-phone">
+                        <input id="phone" placeholder="Telefone" type="tel" title="Por favor, insira um Telefone válido" required>
+                        <i class="icon_register_phone">
+                            <img src="/img/tele.png" alt="Ícone de Telefone">
+                        </i>
+                    </div>
+                </div>
+                <div class="input-register-pass">
+                    <input id="password" placeholder="Senha" type="password" pattern="(?=.*[A-Z])(?=.*[!@#$%^&*,.])(?=.*[a-zA-Z0-9]).{8,}" title="A senha deve conter pelo menos 8 caracteres, incluindo uma letra maiúscula, um símbolo e outros caracteres." required>
+                    <i class="icon_register_pass">
+                        <img src="/img/cadeado_new.png" alt="senha">
+                    </i>
+                </div>
+                <div class="input-register-confpass">
+                    <input id="confirm-password" placeholder="Confirme a Senha" type="password" title="Confirme a senha." required>
+                    <i class="icon_register_confpass">
+                        <img src="/img/cadeado_new.png" alt="senha">
+                    </i>
+                </div>
+                <div>
+                    <button class="botao_cadastro" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="/scripts/telefone.js"></script>
+    <script src="/scripts/confsenha.js"></script>
+</body>
+</html>

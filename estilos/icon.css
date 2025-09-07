@@ -1,0 +1,152 @@
+.perfil {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 11vh; /* Centraliza verticalmente */
+    left: 11vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */;
+}
+
+/* Ajusta a imagem dentro do ícone */
+.perfil img {
+    width: 15vh; /* Define a largura do ícone */
+    height: 15vh; /* Define a altura do ícone */
+    
+}
+
+
+
+
+
+
+/* Agora para usuario */
+.input-box-usu .icon_uso {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 2.3vh; /* Centraliza verticalmente */
+    left: -0vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+/* Ajusta a imagem dentro do ícone */
+.icon_uso img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+    
+}
+
+
+
+
+
+
+
+/* Agora para password */
+.input-box-pass .icon_pass {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 2.3vh; /* Centraliza verticalmente */
+    left: -0vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+
+/* Ajusta a imagem dentro do ícone */
+.icon_pass img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+    
+}
+
+
+
+/* Pagina Cadastro */
+
+/* Agora para usuario */
+.input-register-usu .icon_register_uso {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 3vh; /* Centraliza verticalmente */
+    left: 0.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+.icon_register_uso img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+    
+}
+
+
+
+/* Agora para email */
+.input-register-email .icon_register_email {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 3vh; /* Centraliza verticalmente */
+    left: 0.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+.input-register-email img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+    
+}
+
+
+
+
+/* Agora para telefone */
+.input-register-phone .icon_register_phone {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 3vh; /* Centraliza verticalmente */
+    left: 0.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+.icon_register_phone img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+
+}
+
+
+
+
+/* Agora para pais */
+.input-register-country .icon_register_country {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 3vh; /* Centraliza verticalmente */
+    left: 0.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+.icon_register_country img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+
+}
+
+/* Agora para password */
+
+.input-register-pass .icon_register_pass {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 3vh; /* Centraliza verticalmente */
+    left: 0.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+.input-register-pass img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+    
+}
+
+/* Agora para confirmar password */
+
+.input-register-confpass .icon_register_confpass {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 3vh; /* Centraliza verticalmente */
+    left: 0.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+}
+
+.input-register-confpass img {
+    width: 2.7vh; /* Define a largura do ícone */
+    height: 2.7vh; /* Define a altura do ícone */
+}

@@ -1,0 +1,41 @@
+.cadastro {
+    display: flex; /* Coloca os elementos lado a lado */
+    flex-wrap: wrap;
+    color: var(--branco); /* Cor do texto */
+    margin-bottom: 1vh; /* Espaçamento inferior */
+    margin-left: 9vh; /* Espaçamento à esquerda */
+    font-family: 'Quicksand';
+
+}
+
+
+.cadastre_se{
+    display: flex; /* Coloca os elementos lado a lado */
+    font-size: 1.7vh; /* Tamanho da fonte */
+    color: var(--branco); /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    margin-left: auto; /* Ajusta automaticamente o espaçamento à esquerda */
+    margin-right: auto; /* Centraliza o link horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo dentro do flexbox */
+    font-family: 'Quicksand';
+}
+
+.cadastre_se:hover{
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: var(--branco); /* Cor ao passar o mouse (se definida) */
+    font-family: 'Quicksand';
+}
+
+
+/* Pagina Cadastro */
+
+.register {
+    position: absolute; /* Posiciona o ícone em relação ao .input-box-usu */
+    top: 10vh; /* Centraliza verticalmente */
+    left: 12.5vh; /* Define a distância do ícone em relação à borda esquerda */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */;
+    color: var(--branco); /* Cor do texto */
+    text-decoration: underline;
+    font-size: 2vh;
+    font-family: 'Quicksand';
+}
