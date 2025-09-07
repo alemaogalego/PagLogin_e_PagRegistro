@@ -3,15 +3,16 @@
 ![Status do Projeto](https://img.shields.io/badge/status-concluído-brightgreen)
 
 ## 📸 Preview
+| Janela Principal de login | Janela Principal de cadastro |
+| :---: |:---:|
+| ![Janela Principal de login](img/imglogin.png) | ![Janela Principal de cadastro](img/imgregis.png) |
 
-![Preview da tela de login e registro](./preview.gif)
-> **Nota:** Para exibir uma imagem ou GIF como no exemplo acima, você precisa adicionar um arquivo de imagem (ex: `preview.gif` ou `screenshot.png`) ao seu repositório e ajustar o nome do arquivo no código. Gravar um GIF curto mostrando a transição entre as telas seria uma ótima ideia!
 
 ---
 
 ## 📖 Descrição do Projeto
 
-Este projeto consiste em uma interface de usuário moderna e responsiva para telas de **Login** e **Registro**. Foi desenvolvido com o objetivo de praticar e demonstrar habilidades em tecnologias front-end fundamentais, criando uma experiência de usuário fluida e agradável, com uma animação suave ao alternar entre os formulários.
+Este projeto consiste em uma interface de usuário moderna e responsiva para telas de **Login** e **Registro**. Foi desenvolvido com o objetivo de praticar e demonstrar habilidades em tecnologias front-end fundamentais.
 
 ---
 
